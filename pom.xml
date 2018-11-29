@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>my-papp-releases</id>
+      <name>my-papp-releases</name>
+      <url>http://aus-cloudops-03:8081/nexus/content/repositories/my-papp-releases//</url>
+    </repository>
+    <snapshotRepository>
+      <id>my-papp-repo</id>
+      <name>my-papp-repo</name>
+      <url>http://aus-cloudops-03:8081/nexus/content/repositories/my-papp-repo//</url>
+    </snapshotRepository>
+  </distributionManagement>
 <properties>
 <maven.compiler.source>1.6</maven.compiler.source>
 <maven.compiler.target>1.6</maven.compiler.target>
