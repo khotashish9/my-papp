@@ -28,14 +28,14 @@
   </dependencies>
   <distributionManagement>
     <repository>
-      <id>my-papp-releases</id>
-      <name>my-papp-releases</name>
-      <url>http://aus-cloudops-03:8081/nexus/content/repositories/my-papp-releases//</url>
+      <id>releases</id>
+      <name>releases</name>
+      <url>http://ec2-13-233-39-38.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/releases//</url>
     </repository>
     <snapshotRepository>
-      <id>my-papp-repo</id>
-      <name>my-papp-repo</name>
-      <url>http://aus-cloudops-03:8081/nexus/content/repositories/my-papp-repo//</url>
+      <id>snapshots</id>
+      <name>snapshots</name>
+      <url>http://ec2-13-233-39-38.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/snapshots//</url>
     </snapshotRepository>
   </distributionManagement>
 <properties>
